@@ -1,0 +1,48 @@
+---
+---
+
+@font-face {
+  font-family: Syncopate;
+  font-weight: 300;
+  src: url(/assets/fonts/syncopate.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Syncopate;
+  font-weight: 700;
+  src: url(/assets/fonts/syncopate_bold.woff2) format("woff2");
+}
+
+html {
+  line-height: 1.8rem;
+  color: #000;
+  font-family: "Open Sans";
+  height: 100%;
+  background: #fff;
+}
+
+body {
+  margin: 0;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logotype {
+  font-family: Syncopate;
+  text-align: center;
+  line-height: 1.4em;
+  color: #fff;
+  img {
+    width: 8rem;
+    height: 8rem;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+  #title {
+    line-height: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}

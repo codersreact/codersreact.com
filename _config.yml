@@ -1,0 +1,19 @@
+timezone: America/Los_Angeles
+locale: en_us
+name: Coders React
+title: Coders React
+description: A journey through the world of open source software.
+url: https://codersreact.com
+author:
+  name: James Pearce
+  url: https://tripleodeon.com
+  facebook: jamesgpearce
+  twitter: jamespearce
+
+destination: ./_site
+exclude: ['.gitignore', 'CNAME', '.prettierrc']
+port: 9001
+
+sass:
+  style: compressed
+  sass_dir: assets/css
