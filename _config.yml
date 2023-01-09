@@ -12,7 +12,7 @@ author:
 
 destination: ./_site
 exclude: ['.gitignore', 'CNAME', '.prettierrc']
-port: 9001
+port: 9002
 
 sass:
   style: compressed
